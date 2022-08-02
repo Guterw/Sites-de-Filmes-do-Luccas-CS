@@ -1,0 +1,20 @@
+﻿<div class="alert alert-secondary mt-4">
+    <span class="oi oi-globe me-2" aria-hidden="true"></span>
+    <strong>@Title</strong>
+
+    <span class="text-nowrap">
+    Meu
+    <button type="button" class="btn btn-primary btn-sm">GitHub<a href="https://github.com/Guterw">_</a></button>
+    </span>
+    <span class="text-nowrap">
+    e meu
+    <button type="button" class="btn btn-primary btn-sm">Linkedin<a href="https://www.linkedin.com/in/luccas-fernando-almeida-da-silva-39888b153/">_</a></button>
+    Valeu! E tamo junto!
+    </span>
+</div>
+
+@code {
+    // Demonstrates how a parent component can supply parameters
+    [Parameter]
+    public string? Title { get; set; }
+}
